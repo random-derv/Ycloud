@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="css/pay.css">
+</head>
+<body>
+    <div class="payment-form">
+        <div class="card-details">
+            <img src="images/visa-removebg-preview.png" alt="Visa" class="card-logo">
+            <div class="card-info">
+                <span class="paying-name">Paying To</span>
+                <span class="card-name">Bulk SMS</span>
+            </div>
+        </div>
+        <div class="payment-options">
+            <label>
+                <input type="radio" name="amount" checked>
+                <span>Pay Amount</span>
+                <span class="amount">$100</span>
+            </label>
+            <label>
+                <input type="radio" name="amount">
+                <span>Pay Amount</span>
+                <span class="amount">$500</span>
+            </label>
+            <label>
+                <input type="radio" name="amount">
+                <span>Pay Amount</span>
+                <span class="amount">$1000</span>
+            </label>
+            <label>
+                <input type="radio" name="amount">
+                <span>Pay Amount</span> 
+                <span class="amount">$5000</span>
+            </label>
+            <label>
+                <input type="radio" name="amount">
+                <span>Other amount </span>
+                <input type="number" class="other-amount" placeholder="$">
+            </label>
+        </div>
+        <button class="pay-button">PAY AMOUNT</button>
+        <a href="#" class="go-back">Go back</a>
+    </div>
+
+    <script src="js/pay.js"></script>
+</body>
+</html>
